@@ -90,3 +90,20 @@ Aiden proposed enhancing the legibility classifier to filter out more images ear
 #### Questions for the Professor/TA:
 - What specific elements are expected in the Progress Journal?
 - Could you clarify the requirement "Replicated results of current pipelines and state of the art" for the Project Proposal deliverables?
+
+### Meeting 5 - February 25th, 2025
+
+#### Key Points Discussed:
+- We refined and organized ideas for enhancing our deep learning project’s pipeline:
+  - Aidan will work on creating a synthetic jersey number dataset to fine-tune the STR system on more jersey-like number fonts.
+  - Riley confirmed that he will modify the ResNet architecture and explore a PARSeq alternative.
+  - Jerry will focus on pre-training STR models utilizing the CLIP text encoder.
+  - Adams will concentrate on adopting an ensemble method to boost recognition accuracy and replace Centroid-ReID with DeepSORT to improve occlusion handling and identity tracking.
+- We also began composing the project proposal.
+  
+### Tasks for Next Week:
+- We aim to get things started on our respective tasks, though we're not sure how far we'll get by then.
+  
+### Agenda for Next Meeting:
+- Discuss progress on our initial attempt at improving the pipeline.
+- Address any challenges encountered and help each other where needed.
