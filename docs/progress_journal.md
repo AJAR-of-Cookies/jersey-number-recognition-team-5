@@ -107,3 +107,45 @@ Aiden proposed enhancing the legibility classifier to filter out more images ear
 ### Agenda for Next Meeting:
 - Discuss progress on our initial attempt at improving the pipeline.
 - Address any challenges encountered and help each other where needed.
+- 
+
+## Meeting 6 - March 10th
+
+ ### Key Points Discussed:
+  - Riley tried Resnet101 for the legibility classifier but it took wayyyyyy too long
+  - Aidan working on the synthetic image generation
+  - Jerry working on implementing CLIP
+  - Somebody else using best GPU at BCCancer so not able to use best compute power available
+
+## Meeting 7 - March 17th
+
+ ### Key Points
+  - Jerry implemented CLIP, however it perfromed much worse. Cant use for project
+  - Aidan finished his algorithim to generate images. It generates with randomness in color, angle, shear, and size of numbers on jersey. Adds random background based on image net
+  - Riley tried 64bit floating point percision training. It took a lot longer to train, but gave suprisingly very good results, imrpoving a full %point.
+
+  ### Agenda for next meeting
+  - Start using syntehtic dataset in training
+
+## Meeting 8 - March 24nd
+
+  ### Key Points
+
+  - Figured out how to train parseq on new data
+  - tested synthetic images in very small dataset. Found it performed worse. Adjusted generation to add brightness and color randomness, and generated 100k images rather than ~2k
+  - Noticed that some of the dataset is mislabled, definately interesting to look through. Some outputs were -1 when jersey was very clearly visible
+  - Found an issue with the prediciton consolidation if only one unique prediction it produces -1 rather than the prediction
+
+  ### Agenda
+  - Get more trial runs of different ideas and models
+  
+  
+## Meeting 9 - March 30th
+  ### Key Points
+  - Finishing slideshow for presentation. Trying to get one final dataset for last attempt at image generation. The 100k dataset performed better, but still marginally worse than standard pipeline.
+  - Training for ResNet50, still training but not converging like we'd hoped. Need more epochs to confirm.
+
+  ### Agenda for next meeting
+  - Discuss using syntehtic jerseys on resnet. Triaging poorly generated images manually and use them for legibility classifying. Won't be ready for presentation but maybe for report
+  - Get more images/graphs to use
+  - Creating a live demo via creating a one image inference pipeline
