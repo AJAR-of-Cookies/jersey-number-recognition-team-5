@@ -1,0 +1,1 @@
+This is where the subset of imagenet would go. It could be reasonably interchanged with any folder of images. It was only used to create a version of noise around the jerseys.
