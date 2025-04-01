@@ -1,6 +1,8 @@
 # Jersey Number Recognition Project (Group 5)
 
-##Link to Slides: https://docs.google.com/presentation/d/1E6w9ZxSIpjbnsacmmY-_TsmpW2CoBNmIKtT7rU5nqu8/edit?usp=sharing
+Please see the link to other main repo, where the code for the pipleine lives as it has been continuously updated: https://github.com/rileyeaton-ubc/COSC519-Jersey-Number-Recognition
+
+Link to slides: https://docs.google.com/presentation/d/1E6w9ZxSIpjbnsacmmY-_TsmpW2CoBNmIKtT7rU5nqu8/edit?usp=sharing
 
 ## Overview
 This repository contains our implementation for the SoccerNet Jersey Number Recognition Challenge 2023. The project focuses on developing deep learning models to recognize jersey numbers in soccer videos.
