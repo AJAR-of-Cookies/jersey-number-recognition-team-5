@@ -1,5 +1,7 @@
 # Jersey Number Recognition Project (Group 5)
 
+##Link to Slides: https://docs.google.com/presentation/d/1E6w9ZxSIpjbnsacmmY-_TsmpW2CoBNmIKtT7rU5nqu8/edit?usp=sharing
+
 ## Overview
 This repository contains our implementation for the SoccerNet Jersey Number Recognition Challenge 2023. The project focuses on developing deep learning models to recognize jersey numbers in soccer videos.
 
